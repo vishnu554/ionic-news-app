@@ -1,0 +1,21 @@
+<ion-view view-title="News">
+  <ion-content class="padding">
+    <ion-refresher
+      pulling-text="Pull to refresh..."
+      on-refresh="doRefresh()">
+  </ion-refresher>
+    <div class="card-holder" ng-repeat="article in articles">
+    <ion-card >
+      <img src="{{article.urlToImage}}" class="news-img" />
+      <ion-card-content>
+        <span class="title">
+          {{article.title}}
+        </span>
+        <p class="description">
+          {{article.description}}
+        </p>
+      </ion-card-content>
+    </ion-card>
+    </div>
+  </ion-content>
+</ion-view>
