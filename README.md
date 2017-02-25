@@ -17,5 +17,6 @@ At most there will be only maximum of 15 news articles shown.
 
 # Screenshots
 
-![alt text](/images/news.jpg "News tab") ![alt text](/images/about.jpg "About tab")
 
+
+<img src="/images/news.jpg" width="250" /> <img src="/images/about.jpg" width="250" />
